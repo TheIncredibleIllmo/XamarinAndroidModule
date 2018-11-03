@@ -1,0 +1,4 @@
+XamarinAndroidModule.MainActivity, XamarinAndroidModule;md5fc40e59e89fc9079c787584241a08ab0.MainActivity
+XamarinAndroidModule.MainActivity, XamarinAndroidModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5fc40e59e89fc9079c787584241a08ab0.MainActivity
+XamarinAndroidModule.MainActivity;md5fc40e59e89fc9079c787584241a08ab0.MainActivity
+xamarinandroidmodule.MainActivity;md5fc40e59e89fc9079c787584241a08ab0.MainActivity

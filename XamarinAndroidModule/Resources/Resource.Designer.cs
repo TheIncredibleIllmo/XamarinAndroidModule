@@ -41,6 +41,31 @@ namespace XamarinAndroidModule
 			}
 		}
 		
+		public partial class Color
+		{
+			
+			// aapt resource value: 0x7f030000
+			public const int my_blue = 2130903040;
+			
+			// aapt resource value: 0x7f030003
+			public const int my_gray = 2130903043;
+			
+			// aapt resource value: 0x7f030001
+			public const int my_green = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int my_purple = 2130903042;
+			
+			static Color()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Color()
+			{
+			}
+		}
+		
 		public partial class Layout
 		{
 			
@@ -60,8 +85,20 @@ namespace XamarinAndroidModule
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f030000
-			public const int app_name = 2130903040;
+			// aapt resource value: 0x7f040004
+			public const int CreateTitle = 2130968580;
+			
+			// aapt resource value: 0x7f040001
+			public const int Main_Title = 2130968577;
+			
+			// aapt resource value: 0x7f040002
+			public const int NameHint = 2130968578;
+			
+			// aapt resource value: 0x7f040003
+			public const int SpecialtyHint = 2130968579;
+			
+			// aapt resource value: 0x7f040000
+			public const int app_name = 2130968576;
 			
 			static String()
 			{
