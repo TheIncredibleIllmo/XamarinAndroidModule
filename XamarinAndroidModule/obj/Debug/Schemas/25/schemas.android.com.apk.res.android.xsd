@@ -2,7 +2,7 @@
 <xs:schema xmlns:android="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res/android" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>03/11/2018 12:36:51 p. m.</xs:documentation>
+    <xs:documentation>03/11/2018 02:47:47 p. m.</xs:documentation>
   </xs:annotation>
   <xs:attribute name="accessibilityLiveRegion">
     <xs:annotation>
@@ -3651,6 +3651,8 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/CreateTitle" />
+            <xs:enumeration value="@string/InvalidName" />
+            <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
             <xs:enumeration value="@string/SpecialtyHint" />
@@ -3695,6 +3697,8 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/CreateTitle" />
+            <xs:enumeration value="@string/InvalidName" />
+            <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
             <xs:enumeration value="@string/SpecialtyHint" />
@@ -4303,6 +4307,8 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/CreateTitle" />
+            <xs:enumeration value="@string/InvalidName" />
+            <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
             <xs:enumeration value="@string/SpecialtyHint" />
@@ -4831,6 +4837,8 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/CreateTitle" />
+            <xs:enumeration value="@string/InvalidName" />
+            <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
             <xs:enumeration value="@string/SpecialtyHint" />
@@ -6044,6 +6052,8 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/CreateTitle" />
+            <xs:enumeration value="@string/InvalidName" />
+            <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
             <xs:enumeration value="@string/SpecialtyHint" />
@@ -6377,6 +6387,8 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/CreateTitle" />
+            <xs:enumeration value="@string/InvalidName" />
+            <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
             <xs:enumeration value="@string/SpecialtyHint" />
@@ -11114,6 +11126,8 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/CreateTitle" />
+            <xs:enumeration value="@string/InvalidName" />
+            <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
             <xs:enumeration value="@string/SpecialtyHint" />
@@ -11158,6 +11172,8 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/CreateTitle" />
+            <xs:enumeration value="@string/InvalidName" />
+            <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
             <xs:enumeration value="@string/SpecialtyHint" />
@@ -11778,6 +11794,8 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/CreateTitle" />
+            <xs:enumeration value="@string/InvalidName" />
+            <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
             <xs:enumeration value="@string/SpecialtyHint" />
@@ -11822,6 +11840,8 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/CreateTitle" />
+            <xs:enumeration value="@string/InvalidName" />
+            <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
             <xs:enumeration value="@string/SpecialtyHint" />
@@ -11866,6 +11886,8 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/CreateTitle" />
+            <xs:enumeration value="@string/InvalidName" />
+            <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
             <xs:enumeration value="@string/SpecialtyHint" />
@@ -16902,6 +16924,8 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/CreateTitle" />
+            <xs:enumeration value="@string/InvalidName" />
+            <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
             <xs:enumeration value="@string/SpecialtyHint" />
@@ -17042,6 +17066,10 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@+id/" />
             <xs:enumeration value="@+id/checkedTextView1" />
+            <xs:enumeration value="@id/CreateBtn" />
+            <xs:enumeration value="@id/MainLayout" />
+            <xs:enumeration value="@id/NameEdt" />
+            <xs:enumeration value="@id/SpecialtyEdt" />
             <xs:enumeration value="@android:id/accessibilityActionContextClick" />
             <xs:enumeration value="@android:id/accessibilityActionScrollDown" />
             <xs:enumeration value="@android:id/accessibilityActionScrollLeft" />
@@ -17373,6 +17401,8 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/CreateTitle" />
+            <xs:enumeration value="@string/InvalidName" />
+            <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
             <xs:enumeration value="@string/SpecialtyHint" />
@@ -18595,6 +18625,8 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/CreateTitle" />
+            <xs:enumeration value="@string/InvalidName" />
+            <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
             <xs:enumeration value="@string/SpecialtyHint" />
@@ -21056,6 +21088,8 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/CreateTitle" />
+            <xs:enumeration value="@string/InvalidName" />
+            <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
             <xs:enumeration value="@string/SpecialtyHint" />
@@ -21257,6 +21291,8 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/CreateTitle" />
+            <xs:enumeration value="@string/InvalidName" />
+            <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
             <xs:enumeration value="@string/SpecialtyHint" />
@@ -21515,6 +21551,8 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/CreateTitle" />
+            <xs:enumeration value="@string/InvalidName" />
+            <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
             <xs:enumeration value="@string/SpecialtyHint" />
@@ -22209,6 +22247,8 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/CreateTitle" />
+            <xs:enumeration value="@string/InvalidName" />
+            <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
             <xs:enumeration value="@string/SpecialtyHint" />
@@ -24128,6 +24168,8 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/CreateTitle" />
+            <xs:enumeration value="@string/InvalidName" />
+            <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
             <xs:enumeration value="@string/SpecialtyHint" />
@@ -26098,6 +26140,8 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/CreateTitle" />
+            <xs:enumeration value="@string/InvalidName" />
+            <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
             <xs:enumeration value="@string/SpecialtyHint" />
@@ -27089,6 +27133,8 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/CreateTitle" />
+            <xs:enumeration value="@string/InvalidName" />
+            <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
             <xs:enumeration value="@string/SpecialtyHint" />
@@ -30501,6 +30547,8 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/CreateTitle" />
+            <xs:enumeration value="@string/InvalidName" />
+            <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
             <xs:enumeration value="@string/SpecialtyHint" />
@@ -31775,6 +31823,8 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/CreateTitle" />
+            <xs:enumeration value="@string/InvalidName" />
+            <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
             <xs:enumeration value="@string/SpecialtyHint" />
@@ -32960,6 +33010,8 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/CreateTitle" />
+            <xs:enumeration value="@string/InvalidName" />
+            <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
             <xs:enumeration value="@string/SpecialtyHint" />
@@ -34618,6 +34670,8 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/CreateTitle" />
+            <xs:enumeration value="@string/InvalidName" />
+            <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
             <xs:enumeration value="@string/SpecialtyHint" />
@@ -34662,6 +34716,8 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/CreateTitle" />
+            <xs:enumeration value="@string/InvalidName" />
+            <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
             <xs:enumeration value="@string/SpecialtyHint" />
@@ -38238,6 +38294,8 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/CreateTitle" />
+            <xs:enumeration value="@string/InvalidName" />
+            <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
             <xs:enumeration value="@string/SpecialtyHint" />
@@ -38282,6 +38340,8 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/CreateTitle" />
+            <xs:enumeration value="@string/InvalidName" />
+            <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
             <xs:enumeration value="@string/SpecialtyHint" />
@@ -40768,6 +40828,8 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/CreateTitle" />
+            <xs:enumeration value="@string/InvalidName" />
+            <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
             <xs:enumeration value="@string/SpecialtyHint" />
@@ -40920,6 +40982,8 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/CreateTitle" />
+            <xs:enumeration value="@string/InvalidName" />
+            <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
             <xs:enumeration value="@string/SpecialtyHint" />
@@ -42057,6 +42121,8 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/CreateTitle" />
+            <xs:enumeration value="@string/InvalidName" />
+            <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
             <xs:enumeration value="@string/SpecialtyHint" />

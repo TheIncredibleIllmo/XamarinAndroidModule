@@ -16,11 +16,19 @@ public final class R {
         public static final int my_green=0x7f030001;
         public static final int my_purple=0x7f030002;
     }
+    public static final class id {
+        public static final int CreateBtn=0x7f050003;
+        public static final int MainLayout=0x7f050000;
+        public static final int NameEdt=0x7f050001;
+        public static final int SpecialtyEdt=0x7f050002;
+    }
     public static final class layout {
         public static final int main=0x7f020000;
     }
     public static final class string {
         public static final int CreateTitle=0x7f040004;
+        public static final int InvalidName=0x7f040005;
+        public static final int InvalidSpecialty=0x7f040006;
         public static final int Main_Title=0x7f040001;
         public static final int NameHint=0x7f040002;
         public static final int SpecialtyHint=0x7f040003;

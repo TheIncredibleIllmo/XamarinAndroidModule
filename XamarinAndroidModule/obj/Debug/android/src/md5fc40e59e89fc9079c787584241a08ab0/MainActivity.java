@@ -11,6 +11,8 @@ public class MainActivity
 	static {
 		__md_methods = 
 			"n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler\n" +
+			"n_onStart:()V:GetOnStartHandler\n" +
+			"n_onPause:()V:GetOnPauseHandler\n" +
 			"";
 		mono.android.Runtime.register ("XamarinAndroidModule.MainActivity, XamarinAndroidModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", MainActivity.class, __md_methods);
 	}
@@ -30,6 +32,22 @@ public class MainActivity
 	}
 
 	private native void n_onCreate (android.os.Bundle p0);
+
+
+	public void onStart ()
+	{
+		n_onStart ();
+	}
+
+	private native void n_onStart ();
+
+
+	public void onPause ()
+	{
+		n_onPause ();
+	}
+
+	private native void n_onPause ();
 
 	private java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)

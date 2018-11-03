@@ -6,4 +6,7 @@
   <string name="NameHint">FULL NAME</string>
   <string name="SpecialtyHint">SPECIALTY</string>
   <string name="CreateTitle">CREATE</string>
+  
+  <string name="InvalidName">INVALID NAME</string>
+  <string name="InvalidSpecialty">INVALID SPECIALTY</string>
 </resources>

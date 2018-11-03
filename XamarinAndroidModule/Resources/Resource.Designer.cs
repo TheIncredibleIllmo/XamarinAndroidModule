@@ -66,6 +66,31 @@ namespace XamarinAndroidModule
 			}
 		}
 		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f050003
+			public const int CreateBtn = 2131034115;
+			
+			// aapt resource value: 0x7f050000
+			public const int MainLayout = 2131034112;
+			
+			// aapt resource value: 0x7f050001
+			public const int NameEdt = 2131034113;
+			
+			// aapt resource value: 0x7f050002
+			public const int SpecialtyEdt = 2131034114;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
+			{
+			}
+		}
+		
 		public partial class Layout
 		{
 			
@@ -87,6 +112,12 @@ namespace XamarinAndroidModule
 			
 			// aapt resource value: 0x7f040004
 			public const int CreateTitle = 2130968580;
+			
+			// aapt resource value: 0x7f040005
+			public const int InvalidName = 2130968581;
+			
+			// aapt resource value: 0x7f040006
+			public const int InvalidSpecialty = 2130968582;
 			
 			// aapt resource value: 0x7f040001
 			public const int Main_Title = 2130968577;
