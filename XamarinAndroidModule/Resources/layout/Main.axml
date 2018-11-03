@@ -3,7 +3,9 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-  <TextView android:text="HOLA MUNDO"
+    <TextView
+        android:text="HOLA MUNDO"
         android:layout_width="match_parent"
-    android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        android:textSize="30dp"/>
 </LinearLayout>
