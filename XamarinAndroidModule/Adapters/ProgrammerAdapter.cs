@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 
 using Android.App;
 using Android.Content;
+using Android.Graphics.Drawables;
 using Android.OS;
 using Android.Runtime;
 using Android.Views;
@@ -41,6 +43,19 @@ namespace XamarinAndroidModule.Adapters
             progNameTxt.Text = programmer.Name;
             progSpecialtyTxt.Text = programmer.Specialty;
 
+            try
+            {
+                using (Drawable drawable = 
+                    GetDrawableFromString(programmer.ImageUrl)) 
+                {
+                    progImg.SetImageDrawable(drawable);
+                }
+            }
+            catch (Java.Lang.Exception ex)
+            {           
+                return null;
+            }
+
             return view;
         }
         public override Programmer this[int position] => _programmerLst[position];
@@ -52,6 +67,22 @@ namespace XamarinAndroidModule.Adapters
             return position;
         }
         #endregion
-       
+        #region METHODS
+        /// <summary>
+        /// Gets the drawable from the image url.
+        /// </summary>
+        /// <param name="url"></param>
+        /// <returns></returns>
+        private Drawable GetDrawableFromString(string url)
+        {
+            if (string.IsNullOrEmpty(url)) return null;
+
+            using (Stream str = _context.Assets.Open(url))
+            {
+                var drawable = Drawable.CreateFromStream(str,null);
+                return drawable;
+            }           
+        }
+        #endregion
     }
 }

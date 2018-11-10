@@ -19,6 +19,7 @@ namespace XamarinAndroidModule
         #region FIELDS
         //List<string> _programmerLst = new List<string>();
         List<Programmer> _programmerLst = new List<Programmer>();
+        private string _progUrl = string.Empty;
         #endregion
 
         #region VIEWS
@@ -74,8 +75,9 @@ namespace XamarinAndroidModule
             base.OnStart();
             _createBtn.Click += OnCreateClicked;
             _progListView.ItemLongClick += OnItemLongClick;
+            _imgSpinner.ItemSelected += OnItemSelected;
         }
-
+        
         protected override void OnPause()
         {
             base.OnPause();
@@ -85,6 +87,26 @@ namespace XamarinAndroidModule
         #endregion
 
         #region EVENT_HANDLERS
+        private void OnItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)
+        {
+            var position = e.Position;
+            var spinner = (Spinner)sender;
+
+            var option = spinner?.GetItemAtPosition(position).ToString();
+            switch (option)
+            {
+                case "Senior":
+                    _progUrl = "pika.png";
+                    break;
+                case "Semi-Senior":
+                    _progUrl = "char.png";
+                    break;
+                case "Junior":
+                    _progUrl = "bulba.png";
+                    break;
+            }
+        }
+
         private void OnItemLongClick(object sender, AdapterView.ItemLongClickEventArgs e)
         {
             var programmer = _programmerLst[e.Position];
@@ -120,7 +142,12 @@ namespace XamarinAndroidModule
             };*/
 
             //var programmer = $"{name} - {specialty}";
-            var programmer = new Programmer { Name = name, Specialty = specialty };
+            var programmer = new Programmer
+            {
+                Name = name,
+                Specialty = specialty,
+                ImageUrl = $"images/{_progUrl}"
+            };
 
             _programmerLst.Add(programmer);
             _progAdapter?.NotifyDataSetChanged();
