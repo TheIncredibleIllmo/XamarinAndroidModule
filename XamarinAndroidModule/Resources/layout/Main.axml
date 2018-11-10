@@ -26,4 +26,8 @@
         android:layout_height="50dp"
         android:textColor="@color/my_purple"
         android:id="@+id/CreateBtn" />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ProgListView" />
 </LinearLayout>

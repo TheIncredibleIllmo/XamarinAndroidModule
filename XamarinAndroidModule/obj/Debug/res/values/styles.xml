@@ -1,0 +1,1 @@
+<resources><style name="Theme.AlsetAndroidTheme" parent="android:Theme.Material.Light"><!--App bar color--><item name="android:colorPrimary">@color/my_purple</item><!--Accent color--><item name="android:colorAccent">@color/my_purple</item><!--Status bar color--><item name="android:statusBarColor">@color/my_blue</item></style></resources>

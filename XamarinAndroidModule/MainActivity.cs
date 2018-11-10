@@ -3,10 +3,13 @@ using Android.Widget;
 using Android.OS;
 using Android.Views;
 using Android.Views.InputMethods;
+using System.Collections.Generic;
+using XamarinAndroidModule.Models;
+using System.Linq;
 
 namespace XamarinAndroidModule
 {
-    [Activity(Label = "XamarinAndroidModule", MainLauncher = true)]
+    [Activity(Label = "XamarinAndroidModule", MainLauncher = true, Theme = "@style/Theme.AlsetAndroidTheme")]
     public class MainActivity : Activity
     {
         #region VIEWS
@@ -14,6 +17,8 @@ namespace XamarinAndroidModule
         private EditText _specialtyEdt;
         private Button _createBtn;
         private LinearLayout _mainLyt;
+        private ListView _progListView;
+        private ArrayAdapter _arrayAdapter;
         #endregion
 
         #region LIFECYCLE
@@ -28,6 +33,27 @@ namespace XamarinAndroidModule
             _specialtyEdt = FindViewById<EditText>(Resource.Id.SpecialtyEdt);
             _createBtn = FindViewById<Button>(Resource.Id.CreateBtn);
             _mainLyt = FindViewById<LinearLayout>(Resource.Id.MainLayout);
+            _progListView = FindViewById<ListView>(Resource.Id.ProgListView);
+
+            //1.LISTS ELEMENTS
+            //Data
+            //ListView (VIEWGROUP)
+            //Adapter (Intermediary between Data and ListView)
+
+            List<Programmer> programmers = new List<Programmer>
+            {
+                new Programmer { Name = "Cristian", Specialty = ".NET" },
+                new Programmer { Name = "Bernabé", Specialty = ".NET" }
+            };
+
+            //Gets names only.
+            var names = programmers?.Select(p => p.Name)?.ToList();
+
+            if (names == null) return;
+
+            _arrayAdapter = new ArrayAdapter<string>(this,Android.Resource.Layout.SimpleListItem1,names);
+
+            _progListView.Adapter = _arrayAdapter;
         }
 
         protected override void OnStart()
@@ -63,7 +89,6 @@ namespace XamarinAndroidModule
             }
 
             //CREATES THE CONTROL PROGRAMATICALLY
-
 
             TextView programmerTxt = new TextView(this)
             {
