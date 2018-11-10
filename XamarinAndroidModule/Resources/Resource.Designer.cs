@@ -28,6 +28,22 @@ namespace XamarinAndroidModule
 		{
 		}
 		
+		public partial class Array
+		{
+			
+			// aapt resource value: 0x7f070000
+			public const int programmers_array = 2131165184;
+			
+			static Array()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Array()
+			{
+			}
+		}
+		
 		public partial class Attribute
 		{
 			
@@ -85,29 +101,32 @@ namespace XamarinAndroidModule
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f080003
-			public const int CreateBtn = 2131230723;
+			// aapt resource value: 0x7f090004
+			public const int CreateBtn = 2131296260;
 			
-			// aapt resource value: 0x7f080000
-			public const int MainLayout = 2131230720;
+			// aapt resource value: 0x7f090003
+			public const int ImageSpinner = 2131296259;
 			
-			// aapt resource value: 0x7f080001
-			public const int NameEdt = 2131230721;
+			// aapt resource value: 0x7f090000
+			public const int MainLayout = 2131296256;
 			
-			// aapt resource value: 0x7f080004
-			public const int ProgListView = 2131230724;
+			// aapt resource value: 0x7f090001
+			public const int NameEdt = 2131296257;
 			
-			// aapt resource value: 0x7f080002
-			public const int SpecialtyEdt = 2131230722;
+			// aapt resource value: 0x7f090005
+			public const int ProgListView = 2131296261;
 			
-			// aapt resource value: 0x7f080005
-			public const int progImg = 2131230725;
+			// aapt resource value: 0x7f090002
+			public const int SpecialtyEdt = 2131296258;
 			
-			// aapt resource value: 0x7f080006
-			public const int progNameTxt = 2131230726;
+			// aapt resource value: 0x7f090006
+			public const int progImg = 2131296262;
 			
-			// aapt resource value: 0x7f080007
-			public const int progSpecialtyTxt = 2131230727;
+			// aapt resource value: 0x7f090007
+			public const int progNameTxt = 2131296263;
+			
+			// aapt resource value: 0x7f090008
+			public const int progSpecialtyTxt = 2131296264;
 			
 			static Id()
 			{
@@ -191,8 +210,8 @@ namespace XamarinAndroidModule
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7f070000
-			public const int Theme_AlsetAndroidTheme = 2131165184;
+			// aapt resource value: 0x7f080000
+			public const int Theme_AlsetAndroidTheme = 2131230720;
 			
 			static Style()
 			{

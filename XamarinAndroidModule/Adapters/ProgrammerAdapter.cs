@@ -37,7 +37,7 @@ namespace XamarinAndroidModule.Adapters
             var progImg = view.FindViewById<ImageView>(Resource.Id.progImg);
             var progNameTxt = view.FindViewById<TextView>(Resource.Id.progNameTxt);
             var progSpecialtyTxt = view.FindViewById<TextView>(Resource.Id.progSpecialtyTxt);
-
+                       
             progNameTxt.Text = programmer.Name;
             progSpecialtyTxt.Text = programmer.Specialty;
 

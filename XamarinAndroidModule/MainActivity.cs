@@ -30,6 +30,7 @@ namespace XamarinAndroidModule
         private ArrayAdapter _arrayAdapter;
         private Android.App.AlertDialog _alert;
         private ProgrammerAdapter _progAdapter;
+        private Spinner _imgSpinner;
         #endregion
 
         #region LIFECYCLE
@@ -45,7 +46,7 @@ namespace XamarinAndroidModule
             _createBtn = FindViewById<Button>(Resource.Id.CreateBtn);
             _mainLyt = FindViewById<LinearLayout>(Resource.Id.MainLayout);
             _progListView = FindViewById<ListView>(Resource.Id.ProgListView);
-
+            _imgSpinner = FindViewById<Spinner>(Resource.Id.ImageSpinner);
             //1.LISTS ELEMENTS
             //Data
             //ListView (VIEWGROUP)
@@ -56,6 +57,16 @@ namespace XamarinAndroidModule
 
             //_arrayAdapter = new ArrayAdapter<string>(this,Android.Resource.Layout.SimpleListItem1,_programmerLst);
             _progListView.Adapter = _progAdapter;
+
+            //Init Spinner
+            var spinnerAdapter = ArrayAdapter.CreateFromResource(this,                                                                
+                Resource.Array.programmers_array,                                                                
+                Android.Resource.Layout.SimpleSpinnerItem);
+
+            spinnerAdapter.SetDropDownViewResource(
+                Android.Resource.Layout.SimpleSpinnerDropDownItem);
+
+            _imgSpinner.Adapter = spinnerAdapter;
         }
 
         protected override void OnStart()

@@ -20,6 +20,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/SpecialtyEdt" />
+  <Spinner
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/ImageSpinner"/>  
+  
+  
     <Button
         android:text="@string/CreateTitle"
         android:layout_width="match_parent"
