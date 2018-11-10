@@ -3,15 +3,22 @@ using Android.Widget;
 using Android.OS;
 using Android.Views;
 using Android.Views.InputMethods;
-using System.Collections.Generic;
+
 using XamarinAndroidModule.Models;
 using System.Linq;
+using System.Collections.Generic;
+using Android.Content;
+using System;
 
 namespace XamarinAndroidModule
 {
     [Activity(Label = "XamarinAndroidModule", MainLauncher = true, Theme = "@style/Theme.AlsetAndroidTheme")]
     public class MainActivity : Activity
     {
+        #region FIELDS
+        List<string> _programmerLst = new List<string>();
+        #endregion
+
         #region VIEWS
         private EditText _nameEdt;
         private EditText _specialtyEdt;
@@ -19,6 +26,7 @@ namespace XamarinAndroidModule
         private LinearLayout _mainLyt;
         private ListView _progListView;
         private ArrayAdapter _arrayAdapter;
+        private Android.App.AlertDialog _alert;
         #endregion
 
         #region LIFECYCLE
@@ -40,19 +48,9 @@ namespace XamarinAndroidModule
             //ListView (VIEWGROUP)
             //Adapter (Intermediary between Data and ListView)
 
-            List<Programmer> programmers = new List<Programmer>
-            {
-                new Programmer { Name = "Cristian", Specialty = ".NET" },
-                new Programmer { Name = "Bernabé", Specialty = ".NET" }
-            };
-
             //Gets names only.
-            var names = programmers?.Select(p => p.Name)?.ToList();
 
-            if (names == null) return;
-
-            _arrayAdapter = new ArrayAdapter<string>(this,Android.Resource.Layout.SimpleListItem1,names);
-
+            _arrayAdapter = new ArrayAdapter<string>(this,Android.Resource.Layout.SimpleListItem1,_programmerLst);
             _progListView.Adapter = _arrayAdapter;
         }
 
@@ -60,6 +58,7 @@ namespace XamarinAndroidModule
         {
             base.OnStart();
             _createBtn.Click += OnCreateClicked;
+            _progListView.ItemLongClick += OnItemLongClick;
         }
 
         protected override void OnPause()
@@ -71,6 +70,15 @@ namespace XamarinAndroidModule
         #endregion
 
         #region EVENT_HANDLERS
+        private void OnItemLongClick(object sender, AdapterView.ItemLongClickEventArgs e)
+        {
+            var programmer = _programmerLst[e.Position];
+
+            if (programmer == null) return;
+
+            CreateDialog(Resource.Drawable.rocket, "PROGRAMMER", programmer);
+        }
+
         private void OnCreateClicked(object sender, System.EventArgs e)
         {
             string name = _nameEdt.Text;
@@ -89,21 +97,42 @@ namespace XamarinAndroidModule
             }
 
             //CREATES THE CONTROL PROGRAMATICALLY
-
-            TextView programmerTxt = new TextView(this)
+            /*TextView programmerTxt = new TextView(this)
             {
                 Text = $"{name} {specialty}",
                 TextSize = 25f,
                 Gravity = GravityFlags.CenterHorizontal
-            };
+            };*/
+
+            var programmer = $"{name} - {specialty}";
+
+            _programmerLst.Add(programmer);
+            _arrayAdapter.Add(programmer);
+            _arrayAdapter.NotifyDataSetChanged();
 
             HideKeyboard();
-            _mainLyt.AddView(programmerTxt);
+           // _mainLyt.AddView(programmerTxt);
 
         }
         #endregion
 
         #region METHODS
+        private void CreateDialog(int iconId, string title="", string message="")
+        {          
+             Android.App.AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            _alert = builder.Create();
+            _alert.SetTitle(title);
+            _alert.SetMessage(message);
+            _alert.SetIcon(iconId);
+            _alert.SetButton("Close", OnCloseDialog);
+            _alert.Show();
+        }
+
+        private void OnCloseDialog(object sender, DialogClickEventArgs e)
+        {
+            _alert.Dismiss();
+        }
+
         private void HideKeyboard()
         {
             var viewFocused = CurrentFocus;

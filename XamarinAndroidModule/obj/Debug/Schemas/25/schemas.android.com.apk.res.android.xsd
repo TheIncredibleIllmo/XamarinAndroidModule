@@ -2,7 +2,7 @@
 <xs:schema xmlns:android="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res/android" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>10/11/2018 11:09:07 a. m.</xs:documentation>
+    <xs:documentation>10/11/2018 01:40:20 p. m.</xs:documentation>
   </xs:annotation>
   <xs:attribute name="accessibilityLiveRegion">
     <xs:annotation>
@@ -787,6 +787,7 @@
             <xs:enumeration value="@color/my_gray" />
             <xs:enumeration value="@color/my_green" />
             <xs:enumeration value="@color/my_purple" />
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -1424,6 +1425,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -2109,6 +2111,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -2478,6 +2481,7 @@
             <xs:enumeration value="@color/my_gray" />
             <xs:enumeration value="@color/my_green" />
             <xs:enumeration value="@color/my_purple" />
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -2790,6 +2794,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -3416,6 +3421,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -3741,6 +3747,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -4072,6 +4079,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -4351,6 +4359,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -4602,6 +4611,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -5296,6 +5306,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -5721,6 +5732,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -6112,6 +6124,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -6597,6 +6610,7 @@
             <xs:enumeration value="@color/my_gray" />
             <xs:enumeration value="@color/my_green" />
             <xs:enumeration value="@color/my_purple" />
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -6913,6 +6927,7 @@
             <xs:enumeration value="@color/my_gray" />
             <xs:enumeration value="@color/my_green" />
             <xs:enumeration value="@color/my_purple" />
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -7229,6 +7244,7 @@
             <xs:enumeration value="@color/my_gray" />
             <xs:enumeration value="@color/my_green" />
             <xs:enumeration value="@color/my_purple" />
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -7585,6 +7601,7 @@
             <xs:enumeration value="@color/my_gray" />
             <xs:enumeration value="@color/my_green" />
             <xs:enumeration value="@color/my_purple" />
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -7901,6 +7918,7 @@
             <xs:enumeration value="@color/my_gray" />
             <xs:enumeration value="@color/my_green" />
             <xs:enumeration value="@color/my_purple" />
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -8332,6 +8350,7 @@
             <xs:enumeration value="@color/my_gray" />
             <xs:enumeration value="@color/my_green" />
             <xs:enumeration value="@color/my_purple" />
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -8700,6 +8719,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -8979,6 +8999,7 @@
             <xs:enumeration value="@color/my_gray" />
             <xs:enumeration value="@color/my_green" />
             <xs:enumeration value="@color/my_purple" />
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -9413,6 +9434,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -9820,6 +9842,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -10345,6 +10368,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -10812,6 +10836,7 @@
             <xs:enumeration value="@color/my_gray" />
             <xs:enumeration value="@color/my_green" />
             <xs:enumeration value="@color/my_purple" />
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -11300,6 +11325,7 @@
             <xs:enumeration value="@color/my_gray" />
             <xs:enumeration value="@color/my_green" />
             <xs:enumeration value="@color/my_purple" />
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -11930,6 +11956,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -12163,6 +12190,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -12396,6 +12424,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -12629,6 +12658,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -12862,6 +12892,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -13095,6 +13126,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -13328,6 +13360,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -13561,6 +13594,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -13993,6 +14027,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -14253,6 +14288,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -14486,6 +14522,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -14719,6 +14756,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -14952,6 +14990,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -15225,6 +15264,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -15462,6 +15502,7 @@
             <xs:enumeration value="@color/my_gray" />
             <xs:enumeration value="@color/my_green" />
             <xs:enumeration value="@color/my_purple" />
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -15774,6 +15815,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -16047,6 +16089,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -16376,6 +16419,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -16609,6 +16653,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -17069,7 +17114,10 @@
             <xs:enumeration value="@id/CreateBtn" />
             <xs:enumeration value="@id/MainLayout" />
             <xs:enumeration value="@id/NameEdt" />
+            <xs:enumeration value="@id/progImg" />
             <xs:enumeration value="@id/ProgListView" />
+            <xs:enumeration value="@id/progNameTxt" />
+            <xs:enumeration value="@id/progSpecialtyTxt" />
             <xs:enumeration value="@id/SpecialtyEdt" />
             <xs:enumeration value="@android:id/accessibilityActionContextClick" />
             <xs:enumeration value="@android:id/accessibilityActionScrollDown" />
@@ -17149,6 +17197,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -17497,6 +17546,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -17825,6 +17875,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -18391,6 +18442,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -18715,6 +18767,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -19108,6 +19161,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -19461,6 +19515,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -19710,6 +19765,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -20404,6 +20460,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -20763,6 +20820,7 @@
             <xs:enumeration value="@color/my_gray" />
             <xs:enumeration value="@color/my_green" />
             <xs:enumeration value="@color/my_purple" />
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -21768,6 +21826,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -22013,6 +22072,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -22292,6 +22352,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -22565,6 +22626,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -22798,6 +22860,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -23031,6 +23094,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -23264,6 +23328,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -23497,6 +23562,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -24228,6 +24294,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -24482,6 +24549,7 @@
             <xs:enumeration value="@color/my_gray" />
             <xs:enumeration value="@color/my_green" />
             <xs:enumeration value="@color/my_purple" />
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -24798,6 +24866,7 @@
             <xs:enumeration value="@color/my_gray" />
             <xs:enumeration value="@color/my_green" />
             <xs:enumeration value="@color/my_purple" />
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -25542,6 +25611,7 @@
             <xs:enumeration value="@color/my_gray" />
             <xs:enumeration value="@color/my_green" />
             <xs:enumeration value="@color/my_purple" />
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -25894,6 +25964,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -26318,6 +26389,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -26666,6 +26738,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -26899,6 +26972,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -27686,6 +27760,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -27919,6 +27994,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -28152,6 +28228,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -28385,6 +28462,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -28798,6 +28876,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -29031,6 +29110,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -29437,6 +29517,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -29674,6 +29755,7 @@
             <xs:enumeration value="@color/my_gray" />
             <xs:enumeration value="@color/my_green" />
             <xs:enumeration value="@color/my_purple" />
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -29986,6 +30068,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -30676,6 +30759,7 @@
             <xs:enumeration value="@color/my_gray" />
             <xs:enumeration value="@color/my_green" />
             <xs:enumeration value="@color/my_purple" />
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -31207,6 +31291,7 @@
             <xs:enumeration value="@color/my_gray" />
             <xs:enumeration value="@color/my_green" />
             <xs:enumeration value="@color/my_purple" />
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -31577,6 +31662,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -32777,6 +32863,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -33056,6 +33143,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -33385,6 +33473,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -33698,6 +33787,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -33931,6 +34021,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -34204,6 +34295,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -34437,6 +34529,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -34827,6 +34920,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -35064,6 +35158,7 @@
             <xs:enumeration value="@color/my_gray" />
             <xs:enumeration value="@color/my_green" />
             <xs:enumeration value="@color/my_purple" />
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -35380,6 +35475,7 @@
             <xs:enumeration value="@color/my_gray" />
             <xs:enumeration value="@color/my_green" />
             <xs:enumeration value="@color/my_purple" />
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -35696,6 +35792,7 @@
             <xs:enumeration value="@color/my_gray" />
             <xs:enumeration value="@color/my_green" />
             <xs:enumeration value="@color/my_purple" />
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -36012,6 +36109,7 @@
             <xs:enumeration value="@color/my_gray" />
             <xs:enumeration value="@color/my_green" />
             <xs:enumeration value="@color/my_purple" />
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -36324,6 +36422,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -36583,6 +36682,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -36816,6 +36916,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -37049,6 +37150,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -37282,6 +37384,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -37515,6 +37618,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -37748,6 +37852,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -37981,6 +38086,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -38398,6 +38504,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -38631,6 +38738,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -38864,6 +38972,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -40045,6 +40154,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -40466,6 +40576,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -41229,6 +41340,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -41638,6 +41750,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -42405,6 +42518,7 @@
             <xs:enumeration value="@color/my_gray" />
             <xs:enumeration value="@color/my_green" />
             <xs:enumeration value="@color/my_purple" />
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -42865,6 +42979,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -43114,6 +43229,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -43347,6 +43463,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -43584,6 +43701,7 @@
             <xs:enumeration value="@color/my_gray" />
             <xs:enumeration value="@color/my_green" />
             <xs:enumeration value="@color/my_purple" />
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -43900,6 +44018,7 @@
             <xs:enumeration value="@color/my_gray" />
             <xs:enumeration value="@color/my_green" />
             <xs:enumeration value="@color/my_purple" />
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -44264,6 +44383,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -44497,6 +44617,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/rocket" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
