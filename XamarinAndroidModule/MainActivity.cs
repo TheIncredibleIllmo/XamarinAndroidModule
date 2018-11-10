@@ -9,6 +9,7 @@ using System.Linq;
 using System.Collections.Generic;
 using Android.Content;
 using System;
+using XamarinAndroidModule.Adapters;
 
 namespace XamarinAndroidModule
 {
@@ -16,7 +17,8 @@ namespace XamarinAndroidModule
     public class MainActivity : Activity
     {
         #region FIELDS
-        List<string> _programmerLst = new List<string>();
+        //List<string> _programmerLst = new List<string>();
+        List<Programmer> _programmerLst = new List<Programmer>();
         #endregion
 
         #region VIEWS
@@ -27,6 +29,7 @@ namespace XamarinAndroidModule
         private ListView _progListView;
         private ArrayAdapter _arrayAdapter;
         private Android.App.AlertDialog _alert;
+        private ProgrammerAdapter _progAdapter;
         #endregion
 
         #region LIFECYCLE
@@ -49,9 +52,10 @@ namespace XamarinAndroidModule
             //Adapter (Intermediary between Data and ListView)
 
             //Gets names only.
+            _progAdapter = new ProgrammerAdapter(this, _programmerLst);
 
-            _arrayAdapter = new ArrayAdapter<string>(this,Android.Resource.Layout.SimpleListItem1,_programmerLst);
-            _progListView.Adapter = _arrayAdapter;
+            //_arrayAdapter = new ArrayAdapter<string>(this,Android.Resource.Layout.SimpleListItem1,_programmerLst);
+            _progListView.Adapter = _progAdapter;
         }
 
         protected override void OnStart()
@@ -76,7 +80,7 @@ namespace XamarinAndroidModule
 
             if (programmer == null) return;
 
-            CreateDialog(Resource.Drawable.rocket, "PROGRAMMER", programmer);
+            CreateDialog(Resource.Drawable.rocket, "PROGRAMMER", programmer.ToString());
         }
 
         private void OnCreateClicked(object sender, System.EventArgs e)
@@ -104,14 +108,18 @@ namespace XamarinAndroidModule
                 Gravity = GravityFlags.CenterHorizontal
             };*/
 
-            var programmer = $"{name} - {specialty}";
+            //var programmer = $"{name} - {specialty}";
+            var programmer = new Programmer { Name = name, Specialty = specialty };
 
             _programmerLst.Add(programmer);
-            _arrayAdapter.Add(programmer);
-            _arrayAdapter.NotifyDataSetChanged();
-
+            _progAdapter?.NotifyDataSetChanged();
             HideKeyboard();
-           // _mainLyt.AddView(programmerTxt);
+
+            //_arrayAdapter.Add(programmer);
+            //_arrayAdapter.NotifyDataSetChanged();
+
+
+            // _mainLyt.AddView(programmerTxt);
 
         }
         #endregion

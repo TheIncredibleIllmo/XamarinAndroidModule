@@ -52,8 +52,6 @@ namespace XamarinAndroidModule.Adapters
             return position;
         }
         #endregion
-
-
-
+       
     }
 }

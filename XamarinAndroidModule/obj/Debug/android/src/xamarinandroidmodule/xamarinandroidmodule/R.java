@@ -25,9 +25,13 @@ public final class R {
         public static final int NameEdt=0x7f080001;
         public static final int ProgListView=0x7f080004;
         public static final int SpecialtyEdt=0x7f080002;
+        public static final int progImg=0x7f080005;
+        public static final int progNameTxt=0x7f080006;
+        public static final int progSpecialtyTxt=0x7f080007;
     }
     public static final class layout {
         public static final int main=0x7f040000;
+        public static final int programmerrow=0x7f040001;
     }
     public static final class mipmap {
         public static final int rocket=0x7f030000;
