@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace XamarinAndroidModule.Activies
 {
-    [Activity(Label = "Programmer Details")]
+    [Activity(Label = "Programmer Details", Theme = "@style/Theme.AlsetAndroidTheme")]
     public class ProgrammerDetailsActivity : Activity
     {
         #region FIELDS
@@ -32,6 +32,7 @@ namespace XamarinAndroidModule.Activies
         {
             base.OnCreate(savedInstanceState);
             // Create your application here
+            SetContentView(Resource.Layout.ProgrammerDetails);
         }
         #endregion
 

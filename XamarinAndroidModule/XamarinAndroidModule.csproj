@@ -49,6 +49,9 @@
     <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\netstandard2.0\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
@@ -57,6 +60,7 @@
   <ItemGroup>
     <Compile Include="Activies\ProgrammerDetailsActivity.cs" />
     <Compile Include="Adapters\ProgrammerAdapter.cs" />
+    <Compile Include="Helpers\Constants.cs" />
     <Compile Include="Holders\ProgrammerHolder.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Models\Programmer.cs" />
@@ -65,6 +69,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="GettingStarted.Xamarin" />
+    <None Include="packages.config" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Properties\AndroidManifest.xml" />
     <None Include="Assets\AboutAssets.txt" />

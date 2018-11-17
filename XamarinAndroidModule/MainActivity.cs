@@ -10,6 +10,8 @@ using System.Collections.Generic;
 using Android.Content;
 using System;
 using XamarinAndroidModule.Adapters;
+using XamarinAndroidModule.Activies;
+using Newtonsoft.Json;
 
 namespace XamarinAndroidModule
 {
@@ -100,8 +102,14 @@ namespace XamarinAndroidModule
             try
             {
                 //Prepare the object to be passed.
-                //Intent intent = new Intent(this,typeof(ProgrammerDetailsActivity));
+                Intent intent = new Intent(this,typeof(ProgrammerDetailsActivity));
 
+                var serializedObject = JsonConvert.SerializeObject(programmer);
+                if (serializedObject == null) return;
+
+                intent.PutExtra(Helpers.Constants.ProgrammerId, serializedObject);
+
+                StartActivity(intent);
             }
             catch (Java.Lang.Exception ex)
             {
