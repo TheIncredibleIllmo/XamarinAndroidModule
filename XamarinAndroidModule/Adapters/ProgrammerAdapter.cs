@@ -46,6 +46,8 @@ namespace XamarinAndroidModule.Adapters
                 var progNameTxt = view.FindViewById<TextView>(Resource.Id.progNameTxt);
                 var progSpecialtyTxt = view.FindViewById<TextView>(Resource.Id.progSpecialtyTxt);
 
+                //This holder contains the instances of the Controls
+                //used by the row
                 var holder = new ProgrammerHolder
                 {
                     ProgrammerImg = progImg,
@@ -55,10 +57,12 @@ namespace XamarinAndroidModule.Adapters
 
                 view.Tag = holder;
 
+                //To check how may times the row objects are created
                 _counter++;
                 System.Diagnostics.Debug.WriteLine($"{_counter}");
             }
 
+            //When exists a Row to re-use.
             var viewHolder = (ProgrammerHolder)view.Tag;
             viewHolder.ProgrammerNameTxt.Text = programmer.Name;
             viewHolder.ProgrammerSpecialtyTxt.Text = programmer.Specialty;

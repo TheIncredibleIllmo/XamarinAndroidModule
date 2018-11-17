@@ -14,7 +14,7 @@ namespace XamarinAndroidModule.Holders
 {
     class ProgrammerHolder : Java.Lang.Object
     {
-        public ImageView ProgrammerImg { get; set; }
+        public Android.Widget.ImageView ProgrammerImg { get; set; }
         public TextView ProgrammerNameTxt { get; set; }
         public TextView ProgrammerSpecialtyTxt { get; set; }
     }

@@ -74,19 +74,27 @@ namespace XamarinAndroidModule
         {
             base.OnStart();
             _createBtn.Click += OnCreateClicked;
-            _progListView.ItemLongClick += OnItemLongClick;
+            _progListView.ItemLongClick += OnListItemLongClicked;
+            _progListView.ItemClick += OnListItemClicked;
             _imgSpinner.ItemSelected += OnItemSelected;
         }
-        
+
         protected override void OnPause()
         {
             base.OnPause();
             _createBtn.Click -= OnCreateClicked;
+            _progListView.ItemLongClick -= OnListItemLongClicked;
+            _progListView.ItemClick -= OnListItemClicked;
+            _imgSpinner.ItemSelected -= OnItemSelected;
         }
 
         #endregion
 
         #region EVENT_HANDLERS
+        private void OnListItemClicked(object sender, AdapterView.ItemClickEventArgs e)
+        {
+            throw new NotImplementedException();
+        }
         private void OnItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)
         {
             var position = e.Position;
@@ -107,7 +115,7 @@ namespace XamarinAndroidModule
             }
         }
 
-        private void OnItemLongClick(object sender, AdapterView.ItemLongClickEventArgs e)
+        private void OnListItemLongClicked(object sender, AdapterView.ItemLongClickEventArgs e)
         {
             var programmer = _programmerLst[e.Position];
 
