@@ -11,6 +11,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using XamarinAndroidModule.Holders;
 using XamarinAndroidModule.Models;
 
 namespace XamarinAndroidModule.Adapters
@@ -21,6 +22,7 @@ namespace XamarinAndroidModule.Adapters
         #region FIELDS
         private Activity _context;
         private List<Programmer> _programmerLst;
+        private int _counter;
         #endregion
 
         public ProgrammerAdapter(Activity context, List<Programmer> programmerLst)
@@ -34,21 +36,39 @@ namespace XamarinAndroidModule.Adapters
         {
             Programmer programmer = _programmerLst[position];
 
-            var view = _context.LayoutInflater.Inflate(Resource.Layout.ProgrammerRow,parent,false);
+            View view = convertView;
 
-            var progImg = view.FindViewById<ImageView>(Resource.Id.progImg);
-            var progNameTxt = view.FindViewById<TextView>(Resource.Id.progNameTxt);
-            var progSpecialtyTxt = view.FindViewById<TextView>(Resource.Id.progSpecialtyTxt);
-                       
-            progNameTxt.Text = programmer.Name;
-            progSpecialtyTxt.Text = programmer.Specialty;
+            if(view==null)
+            {
+                view = _context.LayoutInflater.Inflate(Resource.Layout.ProgrammerRow, parent, false);
+
+                var progImg = view.FindViewById<ImageView>(Resource.Id.progImg);
+                var progNameTxt = view.FindViewById<TextView>(Resource.Id.progNameTxt);
+                var progSpecialtyTxt = view.FindViewById<TextView>(Resource.Id.progSpecialtyTxt);
+
+                var holder = new ProgrammerHolder
+                {
+                    ProgrammerImg = progImg,
+                    ProgrammerNameTxt = progNameTxt,
+                    ProgrammerSpecialtyTxt = progSpecialtyTxt
+                };
+
+                view.Tag = holder;
+
+                _counter++;
+                System.Diagnostics.Debug.WriteLine($"{_counter}");
+            }
+
+            var viewHolder = (ProgrammerHolder)view.Tag;
+            viewHolder.ProgrammerNameTxt.Text = programmer.Name;
+            viewHolder.ProgrammerSpecialtyTxt.Text = programmer.Specialty;
 
             try
             {
                 using (Drawable drawable = 
                     GetDrawableFromString(programmer.ImageUrl)) 
                 {
-                    progImg.SetImageDrawable(drawable);
+                    viewHolder.ProgrammerImg.SetImageDrawable(drawable);
                 }
             }
             catch (Java.Lang.Exception ex)

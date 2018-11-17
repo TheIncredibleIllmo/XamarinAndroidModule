@@ -17,7 +17,6 @@ C:\Users\emedi\OneDrive\Documentos\XamarinAndroidModule\XamarinAndroidModule\obj
 C:\Users\emedi\OneDrive\Documentos\XamarinAndroidModule\XamarinAndroidModule\obj\Debug\res\layout\programmerrow.xml
 C:\Users\emedi\OneDrive\Documentos\XamarinAndroidModule\XamarinAndroidModule\bin\Debug\XamarinAndroidModule.dll.mdb
 C:\Users\emedi\OneDrive\Documentos\XamarinAndroidModule\XamarinAndroidModule\obj\Debug\android\assets\XamarinAndroidModule.dll.mdb
-C:\Users\emedi\OneDrive\Documentos\XamarinAndroidModule\XamarinAndroidModule\obj\Debug\XamarinAndroidModule.csprojResolveAssemblyReference.cache
 C:\Users\emedi\OneDrive\Documentos\XamarinAndroidModule\XamarinAndroidModule\bin\Debug\XamarinAndroidModule.dll
 bin\Debug\Mono.Android.pdb
 bin\Debug\mscorlib.pdb
