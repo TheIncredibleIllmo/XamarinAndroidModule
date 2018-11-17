@@ -13,6 +13,10 @@
   <string name="DetailsDefaultTitle">Programmer Details</string>
   <string name="PhotoDefaultTitle">TAKE A PHOTO</string>
 
+  <string name="PhotoAlertTitle">Select an option:</string>
+  <string name="PhotoAlertButton">CLOSE</string>
+  
+  
   <string-array name="programmers_array">
     <item>Senior</item>
     <item>Semi-Senior</item>

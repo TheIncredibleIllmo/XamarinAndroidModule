@@ -15,5 +15,7 @@ namespace XamarinAndroidModule.Helpers
     public static class Constants
     {
         public const string ProgrammerId = "programmer";
+        public const int CameraCode = 100;
+        public const int GalleryCode = 101;
     }
 }

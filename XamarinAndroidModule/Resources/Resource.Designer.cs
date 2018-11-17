@@ -104,6 +104,9 @@ namespace XamarinAndroidModule
 			// aapt resource value: 0x7f090004
 			public const int CreateBtn = 2131296260;
 			
+			// aapt resource value: 0x7f090009
+			public const int DetailsImg = 2131296265;
+			
 			// aapt resource value: 0x7f090006
 			public const int DetailsLayout = 2131296262;
 			
@@ -128,14 +131,14 @@ namespace XamarinAndroidModule
 			// aapt resource value: 0x7f090002
 			public const int SpecialtyEdt = 2131296258;
 			
-			// aapt resource value: 0x7f090009
-			public const int progImg = 2131296265;
-			
 			// aapt resource value: 0x7f09000a
-			public const int progNameTxt = 2131296266;
+			public const int progImg = 2131296266;
 			
 			// aapt resource value: 0x7f09000b
-			public const int progSpecialtyTxt = 2131296267;
+			public const int progNameTxt = 2131296267;
+			
+			// aapt resource value: 0x7f09000c
+			public const int progSpecialtyTxt = 2131296268;
 			
 			static Id()
 			{
@@ -205,6 +208,12 @@ namespace XamarinAndroidModule
 			
 			// aapt resource value: 0x7f060002
 			public const int NameHint = 2131099650;
+			
+			// aapt resource value: 0x7f06000a
+			public const int PhotoAlertButton = 2131099658;
+			
+			// aapt resource value: 0x7f060009
+			public const int PhotoAlertTitle = 2131099657;
 			
 			// aapt resource value: 0x7f060008
 			public const int PhotoDefaultTitle = 2131099656;

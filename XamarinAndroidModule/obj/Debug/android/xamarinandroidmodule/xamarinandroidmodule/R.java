@@ -24,6 +24,7 @@ public final class R {
     }
     public static final class id {
         public static final int CreateBtn=0x7f090004;
+        public static final int DetailsImg=0x7f090009;
         public static final int DetailsLayout=0x7f090006;
         public static final int DetailsTxt=0x7f090007;
         public static final int ImageSpinner=0x7f090003;
@@ -32,9 +33,9 @@ public final class R {
         public static final int PhotoBtn=0x7f090008;
         public static final int ProgListView=0x7f090005;
         public static final int SpecialtyEdt=0x7f090002;
-        public static final int progImg=0x7f090009;
-        public static final int progNameTxt=0x7f09000a;
-        public static final int progSpecialtyTxt=0x7f09000b;
+        public static final int progImg=0x7f09000a;
+        public static final int progNameTxt=0x7f09000b;
+        public static final int progSpecialtyTxt=0x7f09000c;
     }
     public static final class layout {
         public static final int main=0x7f040000;
@@ -51,6 +52,8 @@ public final class R {
         public static final int InvalidSpecialty=0x7f060006;
         public static final int Main_Title=0x7f060001;
         public static final int NameHint=0x7f060002;
+        public static final int PhotoAlertButton=0x7f06000a;
+        public static final int PhotoAlertTitle=0x7f060009;
         public static final int PhotoDefaultTitle=0x7f060008;
         public static final int SpecialtyHint=0x7f060003;
         public static final int app_name=0x7f060000;

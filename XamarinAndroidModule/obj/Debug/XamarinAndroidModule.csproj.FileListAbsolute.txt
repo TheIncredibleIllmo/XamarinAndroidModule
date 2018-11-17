@@ -15,7 +15,6 @@ C:\Users\emedi\OneDrive\Documentos\XamarinAndroidModule\XamarinAndroidModule\obj
 C:\Users\emedi\OneDrive\Documentos\XamarinAndroidModule\XamarinAndroidModule\obj\Debug\res\values\styles.xml
 C:\Users\emedi\OneDrive\Documentos\XamarinAndroidModule\XamarinAndroidModule\obj\Debug\res\drawable\rocket.png
 C:\Users\emedi\OneDrive\Documentos\XamarinAndroidModule\XamarinAndroidModule\obj\Debug\res\layout\programmerrow.xml
-C:\Users\emedi\OneDrive\Documentos\XamarinAndroidModule\XamarinAndroidModule\obj\Debug\XamarinAndroidModule.csprojResolveAssemblyReference.cache
 C:\Users\emedi\OneDrive\Documentos\XamarinAndroidModule\XamarinAndroidModule\obj\Debug\res\layout\programmerdetails.xml
 C:\Users\emedi\OneDrive\Documentos\XamarinAndroidModule\XamarinAndroidModule\bin\Debug\Newtonsoft.Json.dll
 C:\Users\emedi\OneDrive\Documentos\XamarinAndroidModule\XamarinAndroidModule\bin\Debug\Newtonsoft.Json.xml

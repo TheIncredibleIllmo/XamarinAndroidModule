@@ -2,7 +2,7 @@
 <xs:schema xmlns:android="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res/android" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>17/11/2018 11:30:41 a. m.</xs:documentation>
+    <xs:documentation>17/11/2018 12:29:20 p. m.</xs:documentation>
   </xs:annotation>
   <xs:attribute name="accessibilityLiveRegion">
     <xs:annotation>
@@ -3662,6 +3662,8 @@
             <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
+            <xs:enumeration value="@string/PhotoAlertButton" />
+            <xs:enumeration value="@string/PhotoAlertTitle" />
             <xs:enumeration value="@string/PhotoDefaultTitle" />
             <xs:enumeration value="@string/SpecialtyHint" />
             <xs:enumeration value="@android:string/cancel" />
@@ -3710,6 +3712,8 @@
             <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
+            <xs:enumeration value="@string/PhotoAlertButton" />
+            <xs:enumeration value="@string/PhotoAlertTitle" />
             <xs:enumeration value="@string/PhotoDefaultTitle" />
             <xs:enumeration value="@string/SpecialtyHint" />
             <xs:enumeration value="@android:string/cancel" />
@@ -4324,6 +4328,8 @@
             <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
+            <xs:enumeration value="@string/PhotoAlertButton" />
+            <xs:enumeration value="@string/PhotoAlertTitle" />
             <xs:enumeration value="@string/PhotoDefaultTitle" />
             <xs:enumeration value="@string/SpecialtyHint" />
             <xs:enumeration value="@android:string/cancel" />
@@ -4858,6 +4864,8 @@
             <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
+            <xs:enumeration value="@string/PhotoAlertButton" />
+            <xs:enumeration value="@string/PhotoAlertTitle" />
             <xs:enumeration value="@string/PhotoDefaultTitle" />
             <xs:enumeration value="@string/SpecialtyHint" />
             <xs:enumeration value="@android:string/cancel" />
@@ -6077,6 +6085,8 @@
             <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
+            <xs:enumeration value="@string/PhotoAlertButton" />
+            <xs:enumeration value="@string/PhotoAlertTitle" />
             <xs:enumeration value="@string/PhotoDefaultTitle" />
             <xs:enumeration value="@string/SpecialtyHint" />
             <xs:enumeration value="@android:string/cancel" />
@@ -6415,6 +6425,8 @@
             <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
+            <xs:enumeration value="@string/PhotoAlertButton" />
+            <xs:enumeration value="@string/PhotoAlertTitle" />
             <xs:enumeration value="@string/PhotoDefaultTitle" />
             <xs:enumeration value="@string/SpecialtyHint" />
             <xs:enumeration value="@android:string/cancel" />
@@ -11168,6 +11180,8 @@
             <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
+            <xs:enumeration value="@string/PhotoAlertButton" />
+            <xs:enumeration value="@string/PhotoAlertTitle" />
             <xs:enumeration value="@string/PhotoDefaultTitle" />
             <xs:enumeration value="@string/SpecialtyHint" />
             <xs:enumeration value="@android:string/cancel" />
@@ -11216,6 +11230,8 @@
             <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
+            <xs:enumeration value="@string/PhotoAlertButton" />
+            <xs:enumeration value="@string/PhotoAlertTitle" />
             <xs:enumeration value="@string/PhotoDefaultTitle" />
             <xs:enumeration value="@string/SpecialtyHint" />
             <xs:enumeration value="@android:string/cancel" />
@@ -11841,6 +11857,8 @@
             <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
+            <xs:enumeration value="@string/PhotoAlertButton" />
+            <xs:enumeration value="@string/PhotoAlertTitle" />
             <xs:enumeration value="@string/PhotoDefaultTitle" />
             <xs:enumeration value="@string/SpecialtyHint" />
             <xs:enumeration value="@android:string/cancel" />
@@ -11889,6 +11907,8 @@
             <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
+            <xs:enumeration value="@string/PhotoAlertButton" />
+            <xs:enumeration value="@string/PhotoAlertTitle" />
             <xs:enumeration value="@string/PhotoDefaultTitle" />
             <xs:enumeration value="@string/SpecialtyHint" />
             <xs:enumeration value="@android:string/cancel" />
@@ -11937,6 +11957,8 @@
             <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
+            <xs:enumeration value="@string/PhotoAlertButton" />
+            <xs:enumeration value="@string/PhotoAlertTitle" />
             <xs:enumeration value="@string/PhotoDefaultTitle" />
             <xs:enumeration value="@string/SpecialtyHint" />
             <xs:enumeration value="@android:string/cancel" />
@@ -16996,6 +17018,8 @@
             <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
+            <xs:enumeration value="@string/PhotoAlertButton" />
+            <xs:enumeration value="@string/PhotoAlertTitle" />
             <xs:enumeration value="@string/PhotoDefaultTitle" />
             <xs:enumeration value="@string/SpecialtyHint" />
             <xs:enumeration value="@android:string/cancel" />
@@ -17136,6 +17160,7 @@
             <xs:enumeration value="@+id/" />
             <xs:enumeration value="@+id/checkedTextView1" />
             <xs:enumeration value="@id/CreateBtn" />
+            <xs:enumeration value="@id/DetailsImg" />
             <xs:enumeration value="@id/DetailsLayout" />
             <xs:enumeration value="@id/DetailsTxt" />
             <xs:enumeration value="@id/ImageSpinner" />
@@ -17484,6 +17509,8 @@
             <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
+            <xs:enumeration value="@string/PhotoAlertButton" />
+            <xs:enumeration value="@string/PhotoAlertTitle" />
             <xs:enumeration value="@string/PhotoDefaultTitle" />
             <xs:enumeration value="@string/SpecialtyHint" />
             <xs:enumeration value="@android:string/cancel" />
@@ -18713,6 +18740,8 @@
             <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
+            <xs:enumeration value="@string/PhotoAlertButton" />
+            <xs:enumeration value="@string/PhotoAlertTitle" />
             <xs:enumeration value="@string/PhotoDefaultTitle" />
             <xs:enumeration value="@string/SpecialtyHint" />
             <xs:enumeration value="@android:string/cancel" />
@@ -21184,6 +21213,8 @@
             <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
+            <xs:enumeration value="@string/PhotoAlertButton" />
+            <xs:enumeration value="@string/PhotoAlertTitle" />
             <xs:enumeration value="@string/PhotoDefaultTitle" />
             <xs:enumeration value="@string/SpecialtyHint" />
             <xs:enumeration value="@android:string/cancel" />
@@ -21389,6 +21420,8 @@
             <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
+            <xs:enumeration value="@string/PhotoAlertButton" />
+            <xs:enumeration value="@string/PhotoAlertTitle" />
             <xs:enumeration value="@string/PhotoDefaultTitle" />
             <xs:enumeration value="@string/SpecialtyHint" />
             <xs:enumeration value="@android:string/cancel" />
@@ -21651,6 +21684,8 @@
             <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
+            <xs:enumeration value="@string/PhotoAlertButton" />
+            <xs:enumeration value="@string/PhotoAlertTitle" />
             <xs:enumeration value="@string/PhotoDefaultTitle" />
             <xs:enumeration value="@string/SpecialtyHint" />
             <xs:enumeration value="@android:string/cancel" />
@@ -22351,6 +22386,8 @@
             <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
+            <xs:enumeration value="@string/PhotoAlertButton" />
+            <xs:enumeration value="@string/PhotoAlertTitle" />
             <xs:enumeration value="@string/PhotoDefaultTitle" />
             <xs:enumeration value="@string/SpecialtyHint" />
             <xs:enumeration value="@android:string/cancel" />
@@ -24280,6 +24317,8 @@
             <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
+            <xs:enumeration value="@string/PhotoAlertButton" />
+            <xs:enumeration value="@string/PhotoAlertTitle" />
             <xs:enumeration value="@string/PhotoDefaultTitle" />
             <xs:enumeration value="@string/SpecialtyHint" />
             <xs:enumeration value="@android:string/cancel" />
@@ -26259,6 +26298,8 @@
             <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
+            <xs:enumeration value="@string/PhotoAlertButton" />
+            <xs:enumeration value="@string/PhotoAlertTitle" />
             <xs:enumeration value="@string/PhotoDefaultTitle" />
             <xs:enumeration value="@string/SpecialtyHint" />
             <xs:enumeration value="@android:string/cancel" />
@@ -27257,6 +27298,8 @@
             <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
+            <xs:enumeration value="@string/PhotoAlertButton" />
+            <xs:enumeration value="@string/PhotoAlertTitle" />
             <xs:enumeration value="@string/PhotoDefaultTitle" />
             <xs:enumeration value="@string/SpecialtyHint" />
             <xs:enumeration value="@android:string/cancel" />
@@ -30682,6 +30725,8 @@
             <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
+            <xs:enumeration value="@string/PhotoAlertButton" />
+            <xs:enumeration value="@string/PhotoAlertTitle" />
             <xs:enumeration value="@string/PhotoDefaultTitle" />
             <xs:enumeration value="@string/SpecialtyHint" />
             <xs:enumeration value="@android:string/cancel" />
@@ -31963,6 +32008,8 @@
             <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
+            <xs:enumeration value="@string/PhotoAlertButton" />
+            <xs:enumeration value="@string/PhotoAlertTitle" />
             <xs:enumeration value="@string/PhotoDefaultTitle" />
             <xs:enumeration value="@string/SpecialtyHint" />
             <xs:enumeration value="@android:string/cancel" />
@@ -33154,6 +33201,8 @@
             <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
+            <xs:enumeration value="@string/PhotoAlertButton" />
+            <xs:enumeration value="@string/PhotoAlertTitle" />
             <xs:enumeration value="@string/PhotoDefaultTitle" />
             <xs:enumeration value="@string/SpecialtyHint" />
             <xs:enumeration value="@android:string/cancel" />
@@ -34822,6 +34871,8 @@
             <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
+            <xs:enumeration value="@string/PhotoAlertButton" />
+            <xs:enumeration value="@string/PhotoAlertTitle" />
             <xs:enumeration value="@string/PhotoDefaultTitle" />
             <xs:enumeration value="@string/SpecialtyHint" />
             <xs:enumeration value="@android:string/cancel" />
@@ -34870,6 +34921,8 @@
             <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
+            <xs:enumeration value="@string/PhotoAlertButton" />
+            <xs:enumeration value="@string/PhotoAlertTitle" />
             <xs:enumeration value="@string/PhotoDefaultTitle" />
             <xs:enumeration value="@string/SpecialtyHint" />
             <xs:enumeration value="@android:string/cancel" />
@@ -38463,6 +38516,8 @@
             <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
+            <xs:enumeration value="@string/PhotoAlertButton" />
+            <xs:enumeration value="@string/PhotoAlertTitle" />
             <xs:enumeration value="@string/PhotoDefaultTitle" />
             <xs:enumeration value="@string/SpecialtyHint" />
             <xs:enumeration value="@android:string/cancel" />
@@ -38511,6 +38566,8 @@
             <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
+            <xs:enumeration value="@string/PhotoAlertButton" />
+            <xs:enumeration value="@string/PhotoAlertTitle" />
             <xs:enumeration value="@string/PhotoDefaultTitle" />
             <xs:enumeration value="@string/SpecialtyHint" />
             <xs:enumeration value="@android:string/cancel" />
@@ -41007,6 +41064,8 @@
             <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
+            <xs:enumeration value="@string/PhotoAlertButton" />
+            <xs:enumeration value="@string/PhotoAlertTitle" />
             <xs:enumeration value="@string/PhotoDefaultTitle" />
             <xs:enumeration value="@string/SpecialtyHint" />
             <xs:enumeration value="@android:string/cancel" />
@@ -41163,6 +41222,8 @@
             <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
+            <xs:enumeration value="@string/PhotoAlertButton" />
+            <xs:enumeration value="@string/PhotoAlertTitle" />
             <xs:enumeration value="@string/PhotoDefaultTitle" />
             <xs:enumeration value="@string/SpecialtyHint" />
             <xs:enumeration value="@android:string/cancel" />
@@ -42306,6 +42367,8 @@
             <xs:enumeration value="@string/InvalidSpecialty" />
             <xs:enumeration value="@string/Main_Title" />
             <xs:enumeration value="@string/NameHint" />
+            <xs:enumeration value="@string/PhotoAlertButton" />
+            <xs:enumeration value="@string/PhotoAlertTitle" />
             <xs:enumeration value="@string/PhotoDefaultTitle" />
             <xs:enumeration value="@string/SpecialtyHint" />
             <xs:enumeration value="@android:string/cancel" />
