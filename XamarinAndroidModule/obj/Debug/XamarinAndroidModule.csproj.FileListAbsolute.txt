@@ -21,8 +21,8 @@ C:\Users\emedi\OneDrive\Documentos\XamarinAndroidModule\XamarinAndroidModule\bin
 C:\Users\emedi\OneDrive\Documentos\XamarinAndroidModule\XamarinAndroidModule\bin\Debug\Newtonsoft.Json.xml
 C:\Users\emedi\OneDrive\Documentos\XamarinAndroidModule\XamarinAndroidModule\bin\Debug\XamarinAndroidModule.dll.mdb
 C:\Users\emedi\OneDrive\Documentos\XamarinAndroidModule\XamarinAndroidModule\obj\Debug\android\assets\XamarinAndroidModule.dll.mdb
-obj\Debug\linksrc\Mono.Android.pdb
 C:\Users\emedi\OneDrive\Documentos\XamarinAndroidModule\XamarinAndroidModule\bin\Debug\XamarinAndroidModule.dll
+bin\Debug\Mono.Android.pdb
 bin\Debug\mscorlib.pdb
 bin\Debug\System.Core.pdb
 bin\Debug\System.pdb
@@ -41,6 +41,7 @@ bin\Debug\System.ComponentModel.Composition.pdb
 bin\Debug\System.Web.Services.pdb
 bin\Debug\System.Xml.Linq.pdb
 obj\Debug\linksrc\XamarinAndroidModule.dll.mdb
+obj\Debug\linksrc\Mono.Android.pdb
 obj\Debug\linksrc\mscorlib.pdb
 obj\Debug\linksrc\System.Core.pdb
 obj\Debug\linksrc\System.pdb
