@@ -55,6 +55,7 @@
     <Reference Include="Mono.Android" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Activies\ProgrammerDetailsActivity.cs" />
     <Compile Include="Adapters\ProgrammerAdapter.cs" />
     <Compile Include="Holders\ProgrammerHolder.cs" />
     <Compile Include="MainActivity.cs" />
@@ -68,6 +69,9 @@
     <None Include="Properties\AndroidManifest.xml" />
     <None Include="Assets\AboutAssets.txt" />
     <AndroidResource Include="Resources\layout\ProgrammerRow.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\ProgrammerDetails.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

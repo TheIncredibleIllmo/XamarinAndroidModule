@@ -10,6 +10,9 @@
   <string name="InvalidName">INVALID NAME</string>
   <string name="InvalidSpecialty">INVALID SPECIALTY</string>
 
+  <string name="DetailsDefaultTitle">Programmer Details</string>
+  <string name="PhotoDefaultTitle">TAKE A PHOTO</string>
+
   <string-array name="programmers_array">
     <item>Senior</item>
     <item>Semi-Senior</item>

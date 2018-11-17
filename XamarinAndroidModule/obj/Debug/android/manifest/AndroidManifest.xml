@@ -11,6 +11,7 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
+    <activity android:label="Programmer Details" android:name="md5aa77b1ecdbc0ef005eb864e8e3804a5f.ProgrammerDetailsActivity" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="XamarinAndroidModule.XamarinAndroidModule.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">

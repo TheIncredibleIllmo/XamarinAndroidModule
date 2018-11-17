@@ -104,6 +104,12 @@ namespace XamarinAndroidModule
 			// aapt resource value: 0x7f090004
 			public const int CreateBtn = 2131296260;
 			
+			// aapt resource value: 0x7f090006
+			public const int DetailsLayout = 2131296262;
+			
+			// aapt resource value: 0x7f090007
+			public const int DetailsTxt = 2131296263;
+			
 			// aapt resource value: 0x7f090003
 			public const int ImageSpinner = 2131296259;
 			
@@ -113,20 +119,23 @@ namespace XamarinAndroidModule
 			// aapt resource value: 0x7f090001
 			public const int NameEdt = 2131296257;
 			
+			// aapt resource value: 0x7f090008
+			public const int PhotoBtn = 2131296264;
+			
 			// aapt resource value: 0x7f090005
 			public const int ProgListView = 2131296261;
 			
 			// aapt resource value: 0x7f090002
 			public const int SpecialtyEdt = 2131296258;
 			
-			// aapt resource value: 0x7f090006
-			public const int progImg = 2131296262;
+			// aapt resource value: 0x7f090009
+			public const int progImg = 2131296265;
 			
-			// aapt resource value: 0x7f090007
-			public const int progNameTxt = 2131296263;
+			// aapt resource value: 0x7f09000a
+			public const int progNameTxt = 2131296266;
 			
-			// aapt resource value: 0x7f090008
-			public const int progSpecialtyTxt = 2131296264;
+			// aapt resource value: 0x7f09000b
+			public const int progSpecialtyTxt = 2131296267;
 			
 			static Id()
 			{
@@ -145,7 +154,10 @@ namespace XamarinAndroidModule
 			public const int Main = 2130968576;
 			
 			// aapt resource value: 0x7f040001
-			public const int ProgrammerRow = 2130968577;
+			public const int ProgrammerDetails = 2130968577;
+			
+			// aapt resource value: 0x7f040002
+			public const int ProgrammerRow = 2130968578;
 			
 			static Layout()
 			{
@@ -179,6 +191,9 @@ namespace XamarinAndroidModule
 			// aapt resource value: 0x7f060004
 			public const int CreateTitle = 2131099652;
 			
+			// aapt resource value: 0x7f060007
+			public const int DetailsDefaultTitle = 2131099655;
+			
 			// aapt resource value: 0x7f060005
 			public const int InvalidName = 2131099653;
 			
@@ -190,6 +205,9 @@ namespace XamarinAndroidModule
 			
 			// aapt resource value: 0x7f060002
 			public const int NameHint = 2131099650;
+			
+			// aapt resource value: 0x7f060008
+			public const int PhotoDefaultTitle = 2131099656;
 			
 			// aapt resource value: 0x7f060003
 			public const int SpecialtyHint = 2131099651;

@@ -12,14 +12,34 @@ using Android.Widget;
 
 namespace XamarinAndroidModule.Activies
 {
-    [Activity(Label = "ProgrammerDetailsActivity")]
+    [Activity(Label = "Programmer Details")]
     public class ProgrammerDetailsActivity : Activity
     {
+        #region FIELDS
+
+        #endregion
+
+        #region CONTROLS
+
+        #endregion
+
+        #region PROPERTIES
+
+        #endregion
+
+        #region ACTIVITY_LIFECYCLE
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-
             // Create your application here
         }
+        #endregion
+
+        #region METHODS
+
+        #endregion
+
+        #region EVENT_HANDLERS
+        #endregion
     }
 }

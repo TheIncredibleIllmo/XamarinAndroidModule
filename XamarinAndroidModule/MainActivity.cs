@@ -93,7 +93,20 @@ namespace XamarinAndroidModule
         #region EVENT_HANDLERS
         private void OnListItemClicked(object sender, AdapterView.ItemClickEventArgs e)
         {
-            throw new NotImplementedException();
+            var programmer = _programmerLst[e.Position];
+
+            if (programmer == null) return;
+
+            try
+            {
+                //Prepare the object to be passed.
+                //Intent intent = new Intent(this,typeof(ProgrammerDetailsActivity));
+
+            }
+            catch (Java.Lang.Exception ex)
+            {
+                var message = ex.Message;
+            }
         }
         private void OnItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)
         {
